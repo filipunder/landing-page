@@ -53,7 +53,7 @@ body {
   font-family: "Roboto";
   display: flex;
   flex-direction: column;
-  max-width: 75vw;
+  max-width: 65vw;
   margin-left: auto;
   margin-right: auto;
 }
@@ -136,9 +136,11 @@ header a {
 
 .info-section {
   background-color: white;
-  color: #1f2937;
   text-align: center;
-  padding: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
 }
 
 .info-title {
@@ -150,10 +152,63 @@ header a {
 
 .info-cards {
   display: flex;
-  gap: 2rem;
+  gap: 2.5rem;
+  justify-content: center;
 }
 
 .card {
-  flex: 1;
-  flex-basis: 200px;
+  flex-basis: 150px;
+  flex: 1 1 basis;
+}
+
+.card p {
+  color: #1f2937;
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+.card img {
+  border: 3px solid #3882f6;
+  border-radius: 12px;
+}
+
+.testimonial-section {
+  background-color: #e5e7eb;
+  padding: 6rem 8rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+
+.testimonial {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 36px;
+  color: #1f2937;
+}
+
+.signature {
+  font-weight: 700;
+  font-size: 24px;
+  margin-right: 4rem;
+}
+
+.coa-section {
+  padding: 6rem 8rem;
+}
+
+.coa {
+  display: flex;
+  background-color: #3882f6;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.coa-button {
+  background-color: #3882f6;
+  text-align: center;
+  padding: 0.3rem 1.5rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 6px;
+  margin-top: 10px;
 }
