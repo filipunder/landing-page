@@ -177,7 +177,7 @@ header a {
   padding: 6rem 8rem;
   display: flex;
   flex-wrap: wrap;
-  justify-content: end;
+  justify-content: center;
 }
 
 .testimonial {
@@ -185,12 +185,14 @@ header a {
   font-style: italic;
   font-size: 36px;
   color: #1f2937;
+  max-width: 800px;
 }
 
 .signature {
   font-weight: 700;
   font-size: 24px;
-  margin-right: 4rem;
+  text-align: right;
+  margin-right: 2rem;
 }
 
 .coa-section {
@@ -202,13 +204,27 @@ header a {
   background-color: #3882f6;
   justify-content: space-between;
   align-items: center;
+  padding: 3rem 6rem;
+  border-radius: 12px;
+}
+
+.coa-text h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #f9faf8;
+}
+
+.coa-text p {
+  font-size: 16px;
+  color: #f9faf8;
 }
 
 .coa-button {
   background-color: #3882f6;
   text-align: center;
   padding: 0.3rem 1.5rem;
-  border: 2px solid #e5e7eb;
+  border: 2px solid #f9faf8;
   border-radius: 6px;
   margin-top: 10px;
+  color: #f9faf8;
 }
